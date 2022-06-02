@@ -4,11 +4,11 @@ body {
     min-height: 100%;
 }
 
-.navi {
+nav {
     display: flex;
     margin: 0 0;
     padding: 0;
-    max-width: 250px;
+    max-width: 235px;
 }
 
 .navigation {
@@ -23,7 +23,7 @@ body {
 }
 
 .navigation:hover {
-    width: 250px;
+    width: 235px;
 }
 
 .navigation ul {

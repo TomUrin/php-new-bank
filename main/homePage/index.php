@@ -9,7 +9,7 @@
     <title>Main</title>
 </head>
 <body>
-    <div class="navi">
+    <nav>
 <div class="navigation">
         <ul>
             <li class="list active">
@@ -39,7 +39,7 @@
         </ul>
     </div>
     <h1 class="welcome">Welcome to <span class="bankName">LitBank</span></h1>
-</div>
+</nav>
    
     
 

@@ -140,3 +140,115 @@ h1 {
     position: absolute;
     font-size: 50px;
 }
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    width: 700px;
+    height: 350px;
+    max-width: 1000px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    backdrop-filter: blur(25px);
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -40%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+    pointer-events: none;
+    transform: skewX(-15deg);
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    display: inline-block;
+    margin: 25px 30px;
+}
+
+.acc {
+    cursor: pointer;
+}
+
+.acc:hover {
+    background-color: skyblue;
+    border-radius: 3px;
+}
+
+.colBalance {
+    display: inline-block;
+    margin: 25px 30px;
+    text-align: center;
+}
+
+button {
+    margin: 0 40px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+h2 {
+    color: skyblue;
+}
+
+p {
+    color: #fff;
+}
+
+.btnAdd:hover {
+    background-color: green;
+    transition: all 0.2s;
+}
+
+.btnDed:hover {
+    background-color: yellow;
+    transition: all 0.2s;
+}
+
+.btnDel {
+    display: block;
+    margin: 10px 20px;
+    width: 80px;
+    height: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btnDel:hover {
+    background-color: crimson;
+    transition: all 0.2s;
+}
+
+.link {
+    text-decoration: none;
+    padding: 17px 30px;
+    color: black;
+    font-size: 20px;
+}

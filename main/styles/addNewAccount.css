@@ -5,6 +5,13 @@ body {
     display: flex;
 }
 
+nav {
+    display: flex;
+    margin: 0 0;
+    padding: 0;
+    max-width: 235px;
+}
+
 .navigation {
     position: relative;
     height: 100vh;
@@ -17,7 +24,7 @@ body {
 }
 
 .navigation:hover {
-    width: 250px;
+    width: 235px;
 }
 
 .navigation ul {
@@ -126,4 +133,10 @@ body {
 a {
     color: #000;
     text-decoration: none;
+}
+
+h1 {
+    margin-left: calc(50% - 240.5px);
+    position: absolute;
+    font-size: 50px;
 }
